@@ -1,0 +1,93 @@
+body {
+	font-family: 'Poiret One', cursive;
+	background-image: url(background.png);
+	margin-left: 10%;
+	width: 80%;
+}
+
+a {
+	color: #999;
+	text-shadow: 0px 2px 2px #FFF;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.nav-bar {
+	margin-top: 20px;
+	width: 80%;
+	text-shadow: 0px 2px 2px #FFF;
+    color: #999;
+    float: left;
+    display: block;
+    vertical-align: baseline;
+    background-image: url(background.png);
+    position: fixed;
+}
+
+.nav-bar .title {
+	font-family: 'Sigmar One', cursive;
+	font-size: 30px;
+	vertical-align: text-top;
+	margin-top: 5px;
+	float: left;
+}
+
+.nav-bar ul {
+	float: right;
+}
+
+.nav-bar li {
+	margin-left: 10px;
+	float: left;
+}
+
+.home {
+	margin-top: 15%;
+	width: 800px;
+	height: 80%;
+	padding-left: 50%;
+	margin-left: -400px;
+	/*padding-left: -400px;*/
+	float: left;
+	display: block;
+}
+
+li.title {
+	width: 400px;
+	height: 400px;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	border-radius: 200px;
+	background-color: rgba(255,0,0,.2);
+	float: left;
+}
+
+li.title .text {
+	font-size: 35px;
+	color: white;
+	width: 250px;
+	line-height: 50px;
+	margin-top: 150px;
+	padding-left: 50%;
+	margin-left: -150px;
+}
+
+li.image {
+	margin-left: -100px;
+	float: left;
+}
+
+img.circle {
+	width: 400px;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	border-radius: 100%;/*
+	box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, .8);*/
+}
