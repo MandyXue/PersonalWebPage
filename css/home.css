@@ -1,6 +1,6 @@
 body {
 	font-family: 'Poiret One', cursive;
-	background-image: url(background.png);
+	background-image: url(../image/background.png);
 	margin-left: 10%;
 	width: 80%;
 }
@@ -19,14 +19,14 @@ img {
 
 .nav-bar {
 	margin-top: 20px;
-	width: 80%;
+	width: 100%;
 	text-shadow: 0px 2px 2px #FFF;
     color: #999;
     float: left;
     display: block;
     vertical-align: baseline;
-    background-image: url(background.png);
-    position: fixed;
+    /*background-image: url(background.png);*/
+    /*position: fixed;*/
 }
 
 .nav-bar .title {
